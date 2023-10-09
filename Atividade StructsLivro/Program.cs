@@ -30,7 +30,20 @@ class Programa
 
     }
 
-    static
+    static void procurarLivro(List<livro> lista, string tituloBusca)
+    {
+        int index = lista.Count();
+        
+        for(int i =0;i< index; i++)
+        {
+            if (lista[i].titulo.ToUpper().Contains(tituloBusca.ToUpper()))
+            {
+                Console.WriteLine($"{lista[i].titulo}");
+                Console.WriteLine("Prateleira" + lista[i].patreleira);
+            }
+        }
+
+    }
     static void listarLivros(List<livro> lista)
     {
         foreach(livro l in lista)
