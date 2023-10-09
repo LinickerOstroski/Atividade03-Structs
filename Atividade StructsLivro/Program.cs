@@ -42,7 +42,6 @@ class Programa
                 Console.WriteLine("Prateleira" + lista[i].patreleira);
             }
         }
-
     }
     static void listarLivros(List<livro> lista)
     {
@@ -54,16 +53,32 @@ class Programa
             Console.WriteLine("Prateleira" + l.patreleira);
         }
     }
+
+    static void listarPorAno(List<livro> lista, int anoBusca)
+    {
+        int index = lista.Count();
+
+        for(int i=0; i< index; i++)
+        {
+            if (lista[i].ano < anoBusca)
+            {
+                Console.WriteLine("Nome:" + lista[i].titulo);
+                Console.WriteLine("Autor:" + lista[i].autor);
+                Console.WriteLine("Ano:" + lista[i].ano);
+                Console.WriteLine("Prateleira" + lista[i].patreleira);
+
+            }
+        }
+    }
     static int menu()
     {
         int num;
-
         Console.WriteLine("*** Biblioteca ***");
         Console.WriteLine("0 - Sair");
         Console.WriteLine("1 - Cadastrar Livros");
-        Console.WriteLine("2 - Procurar por um livro"); // pedir para digitar o título
+        Console.WriteLine("2 - Procurar por um livro"); 
         Console.WriteLine("3 - Listar os livros cadastrados");
-        Console.WriteLine("4 - Ler um ano"); // apresentar todos os livros mais novos que o ano lido.
+        Console.WriteLine("4 - Ler um ano"); 
 
         num = Convert.ToInt32(Console.ReadLine());
 
@@ -78,6 +93,7 @@ class Programa
 
         do
         {
+          
             operador = menu();
             switch (operador)
             {
@@ -89,11 +105,28 @@ class Programa
                     Console.WriteLine("Cadastrar livro:");
                     cadastraLivro(lista);
                     break;
+                case 2:
+                    Console.WriteLine("Qual livro deseja procurar:");
+                    string nome = Console.ReadLine();
+                    procurarLivro(lista, nome);
+                    break;
+                case 3:
+                    listarLivros(lista);
+                    break;
+                case 4:
+                    Console.WriteLine("Digite o ano:");
+                    int ano = Convert.ToInt32(Console.ReadLine());
+                    listarPorAno(lista, ano);
+                    break;
             }
+            Console.ReadKey();
+            Console.Clear();
+
         } while (program);
 
+        
+        
+
     }
-
-
 
 }

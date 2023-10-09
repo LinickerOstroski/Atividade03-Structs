@@ -1,0 +1,14 @@
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\bin\Debug\net6.0\Atividade StructsLivro.exe
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\bin\Debug\net6.0\Atividade StructsLivro.deps.json
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\bin\Debug\net6.0\Atividade StructsLivro.runtimeconfig.json
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\bin\Debug\net6.0\Atividade StructsLivro.dll
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\bin\Debug\net6.0\Atividade StructsLivro.pdb
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\obj\Debug\net6.0\Atividade StructsLivro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\obj\Debug\net6.0\Atividade StructsLivro.AssemblyInfoInputs.cache
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\obj\Debug\net6.0\Atividade StructsLivro.AssemblyInfo.cs
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\obj\Debug\net6.0\Atividade StructsLivro.csproj.CoreCompileInputs.cache
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\obj\Debug\net6.0\Atividade StructsLivro.dll
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\obj\Debug\net6.0\refint\Atividade StructsLivro.dll
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\obj\Debug\net6.0\Atividade StructsLivro.pdb
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\obj\Debug\net6.0\Atividade StructsLivro.genruntimeconfig.cache
+C:\Users\Iksortso K2\Desktop\ListaDeExercícios3\AtividadeLivros\Atividade StructsLivro\Atividade StructsLivro\obj\Debug\net6.0\ref\Atividade StructsLivro.dll
