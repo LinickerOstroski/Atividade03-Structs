@@ -38,8 +38,13 @@ class Programa
         {
             if (lista[i].titulo.ToUpper().Contains(tituloBusca.ToUpper()))
             {
+                Console.WriteLine("Livro encontrado!\n");
                 Console.WriteLine($"{lista[i].titulo}");
-                Console.WriteLine("Prateleira" + lista[i].patreleira);
+                Console.WriteLine("Presente na prateleira: " + lista[i].patreleira);
+            }
+            else
+            {
+                Console.WriteLine("Livro não encontrado!");
             }
         }
     }
@@ -47,10 +52,10 @@ class Programa
     {
         foreach(livro l in lista)
         {
-            Console.WriteLine("Nome:" + l.titulo);
-            Console.WriteLine("Autor:" + l.autor);
-            Console.WriteLine("Ano:" + l.ano);
-            Console.WriteLine("Prateleira" + l.patreleira);
+            Console.WriteLine("Nome: " + l.titulo);
+            Console.WriteLine("Autor: " + l.autor);
+            Console.WriteLine("Ano: " + l.ano);
+            Console.WriteLine("Prateleira: " + l.patreleira);
         }
     }
 
@@ -60,13 +65,18 @@ class Programa
 
         for(int i=0; i< index; i++)
         {
-            if (lista[i].ano < anoBusca)
+            if (lista[i].ano > anoBusca)
             {
+                Console.WriteLine($"Livros mais novos que o ano: {anoBusca}");
                 Console.WriteLine("Nome:" + lista[i].titulo);
                 Console.WriteLine("Autor:" + lista[i].autor);
                 Console.WriteLine("Ano:" + lista[i].ano);
                 Console.WriteLine("Prateleira" + lista[i].patreleira);
 
+            }
+            else 
+            {
+                Console.WriteLine("Não há livros após esse ano.");
             }
         }
     }
@@ -99,7 +109,7 @@ class Programa
             {
                 case 0:
                     program = false;
-                    Console.WriteLine("Saindo...");
+                    Console.WriteLine("Precione ENTER para sair...");
                     break;
                 case 1:
                     Console.WriteLine("Cadastrar livro:");
